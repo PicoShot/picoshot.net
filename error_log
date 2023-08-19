@@ -1,0 +1,23 @@
+[18-Aug-2023 13:24:01 UTC] PHP Warning:  Undefined variable $userId in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:01 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:01 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 16
+[18-Aug-2023 13:24:36 UTC] PHP Warning:  Undefined variable $userId in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:36 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:36 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 16
+[18-Aug-2023 13:24:44 UTC] PHP Warning:  Undefined variable $userId in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:44 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/picosho1/public_html/download.php:12) in /home/picosho1/public_html/download.php on line 15
+[18-Aug-2023 13:24:44 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 16
+[18-Aug-2023 13:24:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/picosho1/public_html/download.php:12) in /home/picosho1/public_html/download.php on line 16
+[18-Aug-2023 13:24:50 UTC] PHP Warning:  Undefined variable $userId in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:50 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 12
+[18-Aug-2023 13:24:50 UTC] PHP Warning:  Undefined variable $actualFilename in /home/picosho1/public_html/download.php on line 16
+[18-Aug-2023 14:07:19 UTC] PHP Warning:  require_once(sqlconnect.php): Failed to open stream: No such file or directory in /home/picosho1/public_html/download.php on line 2
+[18-Aug-2023 14:07:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'sqlconnect.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/picosho1/public_html/download.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/picosho1/public_html/download.php on line 2
+[18-Aug-2023 14:09:21 UTC] PHP Warning:  readfile(/data/64de8cc7825e8/gradient-color-year-2022-landing-page-template.zip): Failed to open stream: No such file or directory in /home/picosho1/public_html/download.php on line 18
+[18-Aug-2023 14:10:20 UTC] PHP Warning:  readfile(/data/64de8cc7825e8/CS2Installer.exe): Failed to open stream: No such file or directory in /home/picosho1/public_html/download.php on line 18
+[18-Aug-2023 14:10:30 UTC] PHP Warning:  readfile(/data/64de8cc7825e8/CS2Installer.exe): Failed to open stream: No such file or directory in /home/picosho1/public_html/download.php on line 18
+[18-Aug-2023 14:11:41 UTC] PHP Warning:  readfile(/data/64de8cc7825e8/CS2Installer.exe): Failed to open stream: No such file or directory in /home/picosho1/public_html/download.php on line 18

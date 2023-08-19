@@ -1,0 +1,44 @@
+[17-Aug-2023 19:57:24 UTC] PHP Warning:  require_once(sqlconnect.php): Failed to open stream: No such file or directory in /home/picosho1/public_html/register/registerp.php on line 5
+[17-Aug-2023 19:57:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'sqlconnect.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/picosho1/public_html/register/registerp.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/picosho1/public_html/register/registerp.php on line 5
+[17-Aug-2023 20:13:56 UTC] PHP Warning:  require_once(sqlconnect.php): Failed to open stream: No such file or directory in /home/picosho1/public_html/register/loginp.php on line 3
+[17-Aug-2023 20:13:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'sqlconnect.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/picosho1/public_html/register/loginp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/picosho1/public_html/register/loginp.php on line 3
+[17-Aug-2023 20:14:21 UTC] PHP Warning:  require_once(sqlconnect.php): Failed to open stream: No such file or directory in /home/picosho1/public_html/register/loginp.php on line 5
+[17-Aug-2023 20:14:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'sqlconnect.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/picosho1/public_html/register/loginp.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/picosho1/public_html/register/loginp.php on line 5
+[17-Aug-2023 21:06:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/picosho1/public_html/register/registerp.php:36
+Stack trace:
+#0 /home/picosho1/public_html/register/registerp.php(36): mysqli_stmt->bind_param('ssssssi', '64de8bc694397', 'PicoShot', 'valopicoshot@gm...', '$2y$10$P/L/.xul...', '95.70.203.200', '2023-08-17 21:0...', 0)
+#1 {main}
+  thrown in /home/picosho1/public_html/register/registerp.php on line 36
+[17-Aug-2023 21:07:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/picosho1/public_html/register/registerp.php:36
+Stack trace:
+#0 /home/picosho1/public_html/register/registerp.php(36): mysqli_stmt->bind_param('sssssssi', '64de8c05e1438', 'PicoShot', 'valopicoshot@gm...', '$2y$10$HkbFjrRZ...', '95.70.203.200', '2023-08-17 21:0...', 0)
+#1 {main}
+  thrown in /home/picosho1/public_html/register/registerp.php on line 36
+[17-Aug-2023 21:07:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/picosho1/public_html/register/registerp.php:36
+Stack trace:
+#0 /home/picosho1/public_html/register/registerp.php(36): mysqli_stmt->bind_param('sssssi', '64de8c1e43dcf', 'PicoShot', 'valopicoshot@gm...', '$2y$10$76O/WuPm...', '95.70.203.200', '2023-08-17 21:0...', 0)
+#1 {main}
+  thrown in /home/picosho1/public_html/register/registerp.php on line 36
+[17-Aug-2023 21:08:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/picosho1/public_html/register/registerp.php:36
+Stack trace:
+#0 /home/picosho1/public_html/register/registerp.php(36): mysqli_stmt->bind_param('ssssssi', '64de8c54e4c12', 'PicoShot', 'valopicoshot@gm...', '$2y$10$6aPtbPPM...', '95.70.203.200', '2023-08-17 21:0...', 0)
+#1 {main}
+  thrown in /home/picosho1/public_html/register/registerp.php on line 36
+[17-Aug-2023 21:09:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/picosho1/public_html/register/registerp.php:35
+Stack trace:
+#0 /home/picosho1/public_html/register/registerp.php(35): mysqli->prepare('INSERT INTO use...')
+#1 {main}
+  thrown in /home/picosho1/public_html/register/registerp.php on line 35
+[17-Aug-2023 21:15:57 UTC] PHP Warning:  session_start(): open(/home/picosho1/picoshot_sessions/sess_2c27c96432208bf693ee024cb3a94bdb, O_RDWR) failed: No such file or directory (2) in /home/picosho1/public_html/register/loginp.php on line 4
+[17-Aug-2023 21:15:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /home/picosho1/picoshot_sessions) in /home/picosho1/public_html/register/loginp.php on line 4
+[17-Aug-2023 21:15:59 UTC] PHP Warning:  session_start(): open(/home/picosho1/picoshot_sessions/sess_2c27c96432208bf693ee024cb3a94bdb, O_RDWR) failed: No such file or directory (2) in /home/picosho1/public_html/register/loginp.php on line 4
+[17-Aug-2023 21:15:59 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /home/picosho1/picoshot_sessions) in /home/picosho1/public_html/register/loginp.php on line 4
